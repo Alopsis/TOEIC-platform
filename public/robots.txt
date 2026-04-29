@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Admin panel - do not index
+User-agent: *
+Disallow: /admin

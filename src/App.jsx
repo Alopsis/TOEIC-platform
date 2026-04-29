@@ -16,6 +16,7 @@ import StatsPage from './components/Stats'
 import BadgesPage from './components/Gamification/Badges'
 import ProfilePage from './components/Profile'
 import Onboarding from './components/Onboarding'
+import Rickroll from './components/Rickroll'
 
 function AppRoutes() {
   const { state } = useApp()
@@ -41,6 +42,7 @@ function AppRoutes() {
         <Route path="/stats" element={<StatsPage />} />
         <Route path="/badges" element={<BadgesPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/admin" element={<Rickroll />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Layout>
