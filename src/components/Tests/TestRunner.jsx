@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { practiceTests } from '../../data/tests'
 import { readingPassages } from '../../data/exercises'
-import { Clock, ArrowRight, CheckCircle, XCircle, Zap, RotateCcw, ArrowLeft } from 'lucide-react'
+import { Clock, ArrowRight, CheckCircle, XCircle, Zap, RotateCcw, ArrowLeft, Trophy } from 'lucide-react'
 import clsx from 'clsx'
 
 function Timer({ minutes, onTimeUp }) {
