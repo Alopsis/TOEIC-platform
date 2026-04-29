@@ -132,6 +132,10 @@ export default function ReadingExercise() {
   const [passageIndex, setPassageIndex] = useState(0)
   const [allDone, setAllDone] = useState(false)
   const [totalXP, setTotalXP] = useState(0)
+  // Randomize and select 3 passages from the pool
+  const [shuffledPassages] = useState(() => {
+    return [...readingPassages].sort(() => Math.random() - 0.5).slice(0, 3)
+  })
 
   function handlePassageComplete() {
     const xp = 50
@@ -139,11 +143,11 @@ export default function ReadingExercise() {
     setTotalXP(t => t + xp)
     completeExercise({ exerciseId: `reading-${passageIndex}`, correct: true, category: 'Reading' })
 
-    if (passageIndex < readingPassages.length - 1) {
+    if (passageIndex < shuffledPassages.length - 1) {
       setPassageIndex(p => p + 1)
       window.scrollTo(0, 0)
     } else {
-      const mins = Math.max(Math.round(readingPassages.reduce((sum, p) => sum + p.questions.length, 0) * 1.5), 10)
+      const mins = Math.max(Math.round(shuffledPassages.reduce((sum, p) => sum + p.questions.length, 0) * 1.5), 10)
       addStudyTime(mins)
       setAllDone(true)
     }
@@ -184,17 +188,17 @@ export default function ReadingExercise() {
       {/* Progress */}
       <div className="card p-4">
         <div className="flex items-center justify-between text-sm mb-2">
-          <span className="text-gray-400">Passage {passageIndex + 1} of {readingPassages.length}</span>
+          <span className="text-gray-400">Passage {passageIndex + 1} of {shuffledPassages.length}</span>
           <span className="text-primary-400 font-bold flex items-center gap-1"><Zap size={13} /> +{totalXP} XP</span>
         </div>
         <div className="progress-bar">
-          <div className="progress-fill xp-bar" style={{ width: `${((passageIndex) / readingPassages.length) * 100}%` }} />
+          <div className="progress-fill xp-bar" style={{ width: `${((passageIndex) / shuffledPassages.length) * 100}%` }} />
         </div>
       </div>
 
       <PassageView
         key={passageIndex}
-        passage={readingPassages[passageIndex]}
+        passage={shuffledPassages[passageIndex]}
         onComplete={handlePassageComplete}
       />
     </div>

@@ -481,6 +481,323 @@ export const grammarExercises = [
     answer: 'remarkably',
     explanation: 'Adverb "remarkably" modifies the adjective "successful". -ly form = adverb modifying adjectives.',
   },
+
+  // ── ADDITIONAL QUESTIONS (66-115) ──────────────────────────────────────────
+  {
+    id: 'g66', type: 'mcq', category: 'Vocabulary', difficulty: 2, toeicPart: 5,
+    question: 'The conference was _____ attended by representatives from all major companies.',
+    options: ['widely', 'width', 'wide', 'widen'],
+    answer: 'widely',
+    explanation: '"Widely attended" = adverb modifying past participle. "Widely" means "by many people across a broad area".',
+  },
+  {
+    id: 'g67', type: 'mcq', category: 'Verb Tenses', difficulty: 2, toeicPart: 5,
+    question: 'Once the proposal _____ approval, the project can begin immediately.',
+    options: ['receives', 'receive', 'will receive', 'receiving'],
+    answer: 'receives',
+    explanation: 'Clause starting with "Once" + Present Simple = Future time reference. "Once it receives approval" = immediate future action.',
+  },
+  {
+    id: 'g68', type: 'mcq', category: 'Passive Voice', difficulty: 2, toeicPart: 5,
+    question: 'The contract _____ signed by both parties before the payment is processed.',
+    options: ['must be', 'must have been', 'must being', 'being'],
+    answer: 'must be',
+    explanation: '"Must be + past participle" = modal passive voice. Future requirement.',
+  },
+  {
+    id: 'g69', type: 'mcq', category: 'Prepositions', difficulty: 2, toeicPart: 5,
+    question: 'The new software is compatible _____ most operating systems.',
+    options: ['to', 'with', 'for', 'at'],
+    answer: 'with',
+    explanation: '"Compatible with" is the standard collocation. "Compatible to" is incorrect.',
+  },
+  {
+    id: 'g70', type: 'mcq', category: 'Articles', difficulty: 2, toeicPart: 5,
+    question: 'As _____ employee of this company, you are entitled to health insurance benefits.',
+    options: ['a', 'an', 'the', '(no article)'],
+    answer: 'an',
+    explanation: '"An employee" — vowel sound /ə/. "An" before vowel sounds.',
+  },
+  {
+    id: 'g71', type: 'mcq', category: 'Conjunctions', difficulty: 2, toeicPart: 5,
+    question: 'The project was completed on schedule _____ the budget increased by 20%.',
+    options: ['even though', 'because', 'so that', 'in order that'],
+    answer: 'even though',
+    explanation: '"Even though" introduces a strong contrast. The project finished on time DESPITE the budget increase.',
+  },
+  {
+    id: 'g72', type: 'mcq', category: 'Gerund vs Infinitive', difficulty: 2, toeicPart: 5,
+    question: 'The company postponed _____ the new manufacturing facility due to supply chain issues.',
+    options: ['to open', 'opening', 'opened', 'open'],
+    answer: 'opening',
+    explanation: '"Postpone + gerund (-ing)": postpone, delay, cancel, avoid → gerund form.',
+  },
+  {
+    id: 'g73', type: 'mcq', category: 'Word Form', difficulty: 2, toeicPart: 5,
+    question: 'The department\'s _____ to customer service has resulted in positive feedback.',
+    options: ['committed', 'commitment', 'committing', 'commits'],
+    answer: 'commitment',
+    explanation: '"The commitment to X" — noun after possessive. "Commitment" is the noun form.',
+  },
+  {
+    id: 'g74', type: 'mcq', category: 'Subject-Verb Agreement', difficulty: 2, toeicPart: 5,
+    question: 'The majority of employees _____ in favor of the new work schedule.',
+    options: ['is', 'are', 'was', 'have been'],
+    answer: 'are',
+    explanation: '"Majority of + plural noun" takes plural verb. "The majority of employees are..."',
+  },
+  {
+    id: 'g75', type: 'mcq', category: 'Relative Pronouns', difficulty: 2, toeicPart: 5,
+    question: 'The strategies _____ the company implemented have generated significant revenue growth.',
+    options: ['that', 'who', 'whose', 'where'],
+    answer: 'that',
+    explanation: '"That" or which for things. "Strategies that the company implemented" = defining relative clause.',
+  },
+  {
+    id: 'g76', type: 'mcq', category: 'Prepositions', difficulty: 2, toeicPart: 5,
+    question: 'We are aiming _____ a 20% increase in market share by the end of the year.',
+    options: ['at', 'for', 'to', 'about'],
+    answer: 'at',
+    explanation: '"Aiming at" = fixed collocation. "We are aiming at [a target/goal]".',
+  },
+  {
+    id: 'g77', type: 'mcq', category: 'Conditionals', difficulty: 2, toeicPart: 5,
+    question: 'Unless the client _____ additional funding, we will have to reduce project scope.',
+    options: ['provides', 'will provide', 'provided', 'has provided'],
+    answer: 'provides',
+    explanation: '"Unless" clause uses Present Simple for future reference. "Unless the client provides..." = conditional statement.',
+  },
+  {
+    id: 'g78', type: 'mcq', category: 'Vocabulary', difficulty: 2, toeicPart: 5,
+    question: 'The board decided to _____ the policy after extensive review and discussion.',
+    options: ['adopt', 'adapt', 'adept', 'admit'],
+    answer: 'adopt',
+    explanation: '"Adopt a policy" = to officially accept and implement. "Adapt" = to modify; "adept" = skilled.',
+  },
+  {
+    id: 'g79', type: 'mcq', category: 'Modal Verbs', difficulty: 2, toeicPart: 5,
+    question: 'The application _____ be submitted before the deadline, or it will be rejected.',
+    options: ['has to', 'may', 'could', 'might'],
+    answer: 'has to',
+    explanation: '"Has to" = strong obligation/necessity. The application MUST be submitted on time.',
+  },
+  {
+    id: 'g80', type: 'mcq', category: 'Verb Tenses', difficulty: 2, toeicPart: 5,
+    question: 'The sales report _____ submitted to the director before the morning meeting tomorrow.',
+    options: ['will be', 'must be', 'will have been', 'would be'],
+    answer: 'will have been',
+    explanation: '"Before [future time]" + past participle → Future Perfect Passive. "Will have been submitted" by tomorrow morning.',
+  },
+  {
+    id: 'g81', type: 'mcq', category: 'Comparatives', difficulty: 2, toeicPart: 5,
+    question: 'The new office building is _____ modern than the previous headquarters.',
+    options: ['much more', 'more much', 'very more', 'most'],
+    answer: 'much more',
+    explanation: '"Much more + adjective" intensifies comparatives. "Much more modern than..." is the correct form.',
+  },
+  {
+    id: 'g82', type: 'mcq', category: 'Articles', difficulty: 2, toeicPart: 5,
+    question: '_____ information you provided was essential for making the final decision.',
+    options: ['A', 'An', 'The', '(no article)'],
+    answer: 'The',
+    explanation: '"The information" — specific information that was mentioned before or is understood in context.',
+  },
+  {
+    id: 'g83', type: 'mcq', category: 'Prepositions', difficulty: 2, toeicPart: 5,
+    question: 'Our office is located _____ walking distance from the train station.',
+    options: ['by', 'in', 'within', 'at'],
+    answer: 'within',
+    explanation: '"Within walking distance" = fixed expression meaning "close enough to walk to".',
+  },
+  {
+    id: 'g84', type: 'mcq', category: 'Word Form', difficulty: 2, toeicPart: 5,
+    question: 'The _____ of the project will be determined by the availability of resources.',
+    options: ['succeed', 'successful', 'success', 'successfully'],
+    answer: 'success',
+    explanation: '"The success of X" — noun as subject. "Success" is the noun form needed here.',
+  },
+  {
+    id: 'g85', type: 'mcq', category: 'Conjunctions', difficulty: 2, toeicPart: 5,
+    question: 'The company expanded its operations rapidly _____ it faced significant challenges.',
+    options: ['despite', 'although', 'because of', 'due to'],
+    answer: 'although',
+    explanation: '"Although" introduces a concession: rapid expansion DESPITE facing challenges. "Although" + clause; "despite/due to" + noun.',
+  },
+  {
+    id: 'g86', type: 'mcq', category: 'Passive Voice', difficulty: 3, toeicPart: 5,
+    question: 'Had the proposal _____ earlier, the implementation could have begun last month.',
+    options: ['been approved', 'been approving', 'approved', 'approving'],
+    answer: 'been approved',
+    explanation: '"Had been approved" = Past Perfect Passive in conditional. "Had" + "been" + past participle.',
+  },
+  {
+    id: 'g87', type: 'mcq', category: 'Relative Pronouns', difficulty: 2, toeicPart: 5,
+    question: 'The consultant, _____ expertise in marketing is renowned, will lead the campaign.',
+    options: ['who', 'that', 'whose', 'which'],
+    answer: 'whose',
+    explanation: '"Whose expertise" = possession. The consultant\'s expertise is renowned. "Whose" shows possession in relative clauses.',
+  },
+  {
+    id: 'g88', type: 'mcq', category: 'Verb Tenses', difficulty: 2, toeicPart: 5,
+    question: 'Since the merger, the company _____ experiencing steady growth in all markets.',
+    options: ['has been', 'is', 'was', 'will be'],
+    answer: 'has been',
+    explanation: '"Since [past point]" + Present Perfect Continuous. "Has been experiencing" = started in the past and continues now.',
+  },
+  {
+    id: 'g89', type: 'mcq', category: 'Vocabulary', difficulty: 2, toeicPart: 5,
+    question: 'The new policy is _____ to all employees regardless of their position or tenure.',
+    options: ['applicable', 'applied', 'apply', 'applies'],
+    answer: 'applicable',
+    explanation: '"Applicable to" = able to be applied to; relevant to. "The policy is applicable to all employees."',
+  },
+  {
+    id: 'g90', type: 'mcq', category: 'Modal Verbs', difficulty: 2, toeicPart: 5,
+    question: 'You _____ complete the training before you are assigned to a project team.',
+    options: ['might', 'could', 'must', 'would'],
+    answer: 'must',
+    explanation: '"Must" expresses necessity/requirement. The training completion is mandatory before team assignment.',
+  },
+  {
+    id: 'g91', type: 'mcq', category: 'Prepositions', difficulty: 2, toeicPart: 5,
+    question: 'The manager is dealing _____ multiple projects and competing priorities.',
+    options: ['for', 'with', 'about', 'at'],
+    answer: 'with',
+    explanation: '"Deal with" = fixed phrasal verb. "Dealing with problems/projects/situations".',
+  },
+  {
+    id: 'g92', type: 'mcq', category: 'Subject-Verb Agreement', difficulty: 2, toeicPart: 5,
+    question: 'Everyone in the department _____ required to attend the mandatory training session.',
+    options: ['are', 'were', 'is', 'have been'],
+    answer: 'is',
+    explanation: '"Everyone" + singular verb. Despite plural meaning, "everyone" is grammatically singular → "is required".',
+  },
+  {
+    id: 'g93', type: 'mcq', category: 'Word Form', difficulty: 2, toeicPart: 5,
+    question: 'The _____ of our supply chain will ensure timely delivery of products.',
+    options: ['efficient', 'efficiency', 'efficiently', 'efficient'],
+    answer: 'efficiency',
+    explanation: '"The efficiency of X" — noun as subject. "Efficiency" is the noun form needed.',
+  },
+  {
+    id: 'g94', type: 'mcq', category: 'Conditionals', difficulty: 2, toeicPart: 5,
+    question: 'If you _____ any questions about the new procedures, please contact HR immediately.',
+    options: ['will have', 'have', 'are having', 'had'],
+    answer: 'have',
+    explanation: '"If + Present Simple" for conditional statements. "If you have questions..." = open conditional.',
+  },
+  {
+    id: 'g95', type: 'mcq', category: 'Verb Tenses', difficulty: 3, toeicPart: 5,
+    question: 'The company _____ its quarterly targets for the past three consecutive years.',
+    options: ['exceeded', 'has exceeded', 'had exceeded', 'exceeds'],
+    answer: 'has exceeded',
+    explanation: '"For the past three years" → Present Perfect. Unfinished time period including now.',
+  },
+  {
+    id: 'g96', type: 'mcq', category: 'Vocabulary', difficulty: 2, toeicPart: 5,
+    question: 'The board will _____ the proposal at the next quarterly meeting.',
+    options: ['consider', 'considerable', 'consideration', 'considered'],
+    answer: 'consider',
+    explanation: '"Will consider" = future action. Verb form needed in future simple tense.',
+  },
+  {
+    id: 'g97', type: 'mcq', category: 'Articles', difficulty: 2, toeicPart: 5,
+    question: 'We need to hire _____ experienced software developer for our new project.',
+    options: ['a', 'an', 'the', '(no article)'],
+    answer: 'an',
+    explanation: '"An experienced" — vowel sound /ɪ/ in "experienced". "An" before vowel sounds.',
+  },
+  {
+    id: 'g98', type: 'mcq', category: 'Prepositions', difficulty: 2, toeicPart: 5,
+    question: 'The project is progressing smoothly _____ schedule and within budget.',
+    options: ['on', 'in', 'at', 'by'],
+    answer: 'on',
+    explanation: '"On schedule" = fixed expression. The project is keeping to the planned timeline.',
+  },
+  {
+    id: 'g99', type: 'mcq', category: 'Passive Voice', difficulty: 2, toeicPart: 5,
+    question: 'The new regulations _____ implemented starting next quarter.',
+    options: ['will be', 'have been', 'are being', 'were'],
+    answer: 'will be',
+    explanation: '"Starting next quarter" = future time → Future Simple Passive "will be implemented".',
+  },
+  {
+    id: 'g100', type: 'mcq', category: 'Modal Verbs', difficulty: 2, toeicPart: 5,
+    question: 'Employees _____ not access the system without proper authorization and authentication.',
+    options: ['may', 'might', 'shall', 'can'],
+    answer: 'may',
+    explanation: '"May not" = permission/prohibition. Access is prohibited without authorization.',
+  },
+  {
+    id: 'g101', type: 'mcq', category: 'Comparatives', difficulty: 2, toeicPart: 5,
+    question: 'This approach is far _____ effective than the previous method.',
+    options: ['more', 'much more', 'very more', 'most'],
+    answer: 'more',
+    explanation: '"Far more effective" — "far" intensifies comparatives. Simple "more" + adjective.',
+  },
+  {
+    id: 'g102', type: 'mcq', category: 'Conjunctions', difficulty: 2, toeicPart: 5,
+    question: 'The proposal was rejected _____ its potential environmental impact.',
+    options: ['because', 'because of', 'although', 'despite'],
+    answer: 'because of',
+    explanation: '"Because of" + noun phrase. "Due to" and "because of" are synonymous.',
+  },
+  {
+    id: 'g103', type: 'mcq', category: 'Word Form', difficulty: 2, toeicPart: 5,
+    question: 'The _____ of the team is crucial to project success.',
+    options: ['cooperate', 'cooperation', 'cooperative', 'cooperating'],
+    answer: 'cooperation',
+    explanation: '"The cooperation of the team" — noun as subject. "Cooperation" is the noun form.',
+  },
+  {
+    id: 'g104', type: 'mcq', category: 'Verb Tenses', difficulty: 2, toeicPart: 5,
+    question: 'Once you _____ the document, please send it to the legal department.',
+    options: ['signed', 'have signed', 'will sign', 'signing'],
+    answer: 'have signed',
+    explanation: '"Once" clause with perfect aspect. "Once you have signed (completed)" → then "send it".',
+  },
+  {
+    id: 'g105', type: 'mcq', category: 'Relative Pronouns', difficulty: 2, toeicPart: 5,
+    question: 'The report, _____ was submitted last week, contains important findings.',
+    options: ['that', 'which', 'who', 'whose'],
+    answer: 'which',
+    explanation: 'Non-defining relative clause (with commas) about a thing → "which" (not "that"). Things use "which" in non-defining clauses.',
+  },
+  {
+    id: 'g106', type: 'mcq', category: 'Prepositions', difficulty: 2, toeicPart: 5,
+    question: 'The company is committed _____ providing excellent customer service.',
+    options: ['for', 'to', 'with', 'at'],
+    answer: 'to',
+    explanation: '"Committed to" = fixed collocation. "Committed to [goal/service/cause]".',
+  },
+  {
+    id: 'g107', type: 'mcq', category: 'Subject-Verb Agreement', difficulty: 2, toeicPart: 5,
+    question: 'Neither the manager nor the employees _____ satisfied with the current working conditions.',
+    options: ['is', 'are', 'was', 'were'],
+    answer: 'are',
+    explanation: '"Neither...nor" → verb agrees with the CLOSER subject. "Employees" (plural) → "are".',
+  },
+  {
+    id: 'g108', type: 'mcq', category: 'Vocabulary', difficulty: 2, toeicPart: 5,
+    question: 'The new facility will substantially _____ our production capacity.',
+    options: ['increase', 'increased', 'increasing', 'increases'],
+    answer: 'increase',
+    explanation: '"Will increase" — future simple. Base verb form after "will".',
+  },
+  {
+    id: 'g109', type: 'mcq', category: 'Passive Voice', difficulty: 2, toeicPart: 5,
+    question: 'All applications _____ carefully reviewed before a final decision is made.',
+    options: ['will be', 'are', 'will', 'being'],
+    answer: 'will be',
+    explanation: '"Applications will be reviewed" — future passive. Subject receives the action of reviewing.',
+  },
+  {
+    id: 'g110', type: 'mcq', category: 'Modal Verbs', difficulty: 2, toeicPart: 5,
+    question: 'The client _____ have received our proposal by now.',
+    options: ['should', 'would', 'must', 'might'],
+    answer: 'should',
+    explanation: '"Should have received" — expectation about something that likely happened. "By now" indicates past.',
+  },
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -772,6 +1089,171 @@ GreenPath Logistics`,
       },
     ],
   },
+  {
+    id: 'r6',
+    type: 'email',
+    title: 'Email – Conference Registration Confirmation',
+    difficulty: 1,
+    text: `Subject: Conference Registration Confirmation – TechSummit 2025
+
+Dear Mr. Davidson,
+
+Thank you for registering for TechSummit 2025, which will be held June 15-17 at the Convention Center in Boston. We are excited to have you attend this year's event.
+
+Your registration details:
+- Event: TechSummit 2025
+- Dates: June 15-17, 2025
+- Location: Boston Convention Center
+- Pass Type: Full Conference Pass (includes all sessions and networking events)
+- Confirmation Code: TS2025-48392
+
+IMPORTANT: Please bring this email along with a valid form of identification when you arrive at registration on June 15. Registration opens at 7:30 AM. Early arrivals will receive complimentary breakfast.
+
+The full conference schedule will be posted on our website by May 1st. We encourage you to review the agenda in advance and select the sessions most relevant to your interests.
+
+A dedicated app for attendees will become available for download on June 1st, featuring the complete schedule, speaker profiles, and networking tools.
+
+If you have any questions or need to make changes to your registration, please contact our support team at support@techsummit.com or call 1-800-TECHSUM.
+
+We look forward to seeing you in Boston!
+
+Best regards,
+Conference Management Team
+TechSummit 2025`,
+    questions: [
+      {
+        id: 'r6q1',
+        question: 'What is the purpose of this email?',
+        options: ['To promote TechSummit 2025 to potential attendees', 'To confirm a registration for TechSummit 2025', 'To announce the conference schedule', 'To collect feedback from previous attendees'],
+        answer: 'To confirm a registration for TechSummit 2025',
+        explanation: 'The subject line and opening clearly state "Conference Registration Confirmation".',
+      },
+      {
+        id: 'r6q2',
+        question: 'When will the conference schedule be posted online?',
+        options: ['By May 1st', 'By June 1st', 'On June 15th', 'On June 10th'],
+        answer: 'By May 1st',
+        explanation: '"The full conference schedule will be posted on our website by May 1st."',
+      },
+      {
+        id: 'r6q3',
+        question: 'What should Mr. Davidson bring to the conference registration?',
+        options: ['His confirmation email and a valid form of identification', 'Only his confirmation code', 'Only a valid ID', 'His original payment receipt'],
+        answer: 'His confirmation email and a valid form of identification',
+        explanation: '"Please bring this email along with a valid form of identification when you arrive at registration."',
+      },
+    ],
+  },
+  {
+    id: 'r7',
+    type: 'article',
+    title: 'Business Article – Remote Work Productivity Study',
+    difficulty: 2,
+    text: `NEW STUDY REVEALS HYBRID WORK PRODUCTIVITY PEAKS AT THREE DAYS IN OFFICE
+
+According to a comprehensive study conducted by the Work Institute, employees working a hybrid schedule with three days in the office and two days remote report the highest productivity levels compared to fully remote or fully in-office arrangements.
+
+The study, which tracked over 5,000 workers across various industries for six months, found that three-days-in-office employees completed projects 23% faster than their fully remote counterparts and maintained better team cohesion metrics.
+
+"The sweet spot appears to be when employees have dedicated office days for collaboration while retaining the flexibility of remote days for focused work," said Dr. Elena Martinez, lead researcher. "This balance minimizes distractions during solo work while maximizing in-person collaboration opportunities."
+
+Interestingly, the study also revealed that employee satisfaction scores peaked at the same three-day arrangement. Workers reported feeling less isolated than fully remote employees and less burned out than those in traditional full-time office environments.
+
+The findings have significant implications for companies evaluating their workplace policies. Organizations that have already adopted flexible schedules are seeing lower turnover rates—approximately 18% compared to the industry average of 25% for traditional office-based roles.
+
+"As we move toward the future of work, organizations need to recognize that one-size-fits-all policies are outdated," Dr. Martinez concluded. "The data strongly supports customizable arrangements that allow employees to find their optimal work environment."`,
+    questions: [
+      {
+        id: 'r7q1',
+        question: 'According to the study, what work arrangement produces the highest productivity?',
+        options: ['Fully remote work', 'Three days in office, two days remote', 'Fully in-office work', 'Four days in office, one day remote'],
+        answer: 'Three days in office, two days remote',
+        explanation: 'The headline and first paragraph clearly state this hybrid arrangement had the highest productivity.',
+      },
+      {
+        id: 'r7q2',
+        question: 'How much faster do three-days-in-office employees complete projects?',
+        options: ['18% faster', '23% faster', '25% faster', '30% faster'],
+        answer: '23% faster',
+        explanation: '"completed projects 23% faster than their fully remote counterparts".',
+      },
+      {
+        id: 'r7q3',
+        question: 'What was the turnover rate for organizations with flexible schedules?',
+        options: ['18%', '23%', '25%', '30%'],
+        answer: '18%',
+        explanation: '"Organizations that have already adopted flexible schedules are seeing lower turnover rates—approximately 18%".',
+      },
+      {
+        id: 'r7q4',
+        question: 'What does Dr. Martinez suggest about workplace policies?',
+        options: ['All companies should require full-time office attendance', 'Remote work is superior to in-office work', 'One-size-fits-all policies are outdated', 'Flexible arrangements should not be permitted'],
+        answer: 'One-size-fits-all policies are outdated',
+        explanation: 'Dr. Martinez concludes that "one-size-fits-all policies are outdated" and customizable arrangements are needed.',
+      },
+    ],
+  },
+  {
+    id: 'r8',
+    type: 'notice',
+    title: 'Facility Closure Notice – System Upgrade',
+    difficulty: 1,
+    text: `NOTICE OF TEMPORARY FACILITY CLOSURE
+Alpine Business Park – Building A
+
+We regret to inform all users and tenants that Building A will be temporarily closed for essential system upgrades from Monday, May 12th through Friday, May 16th, 2025.
+
+During this closure period, the following services will be unavailable:
+• Building access (main and side entrances)
+• Parking facilities
+• Wi-Fi and network connectivity
+• Cafeteria and break room facilities
+• Reception desk services
+
+ALTERNATIVE ARRANGEMENTS:
+If you work in Building A, please make arrangements to work from home or from Building C, which will remain fully operational during this period. Limited visitor parking will be available in the Building C lot on a first-come, first-served basis.
+
+IMPORTANT DATES:
+Last day of access before closure: Friday, May 9th (closes at 6 PM)
+Reopening date: Monday, May 19th (8 AM opening)
+
+All employees will receive further instructions via email by May 8th. If you have urgent matters requiring physical access to Building A during the closure, please contact Facilities Management at ext. 305 before May 8th.
+
+We appreciate your cooperation and understanding as we work to improve our facilities.
+
+Facilities Management Team
+Alpine Business Park`,
+    questions: [
+      {
+        id: 'r8q1',
+        question: 'Why is Building A being closed?',
+        options: ['For routine cleaning', 'For essential system upgrades', 'Due to structural damage', 'For office reconfiguration'],
+        answer: 'For essential system upgrades',
+        explanation: '"Building A will be temporarily closed for essential system upgrades".',
+      },
+      {
+        id: 'r8q2',
+        question: 'Which building will remain open during the closure?',
+        options: ['Building A', 'Building B', 'Building C', 'All buildings will close'],
+        answer: 'Building C',
+        explanation: '"Building C, which will remain fully operational during this period".',
+      },
+      {
+        id: 'r8q3',
+        question: 'When does Building A reopen?',
+        options: ['May 12th', 'May 16th', 'May 19th', 'May 20th'],
+        answer: 'May 19th',
+        explanation: '"Reopening date: Monday, May 19th (8 AM opening)".',
+      },
+      {
+        id: 'r8q4',
+        question: 'What should employees do if they have urgent matters during the closure?',
+        options: ['Wait until after May 19th', 'Contact Facilities Management at ext. 305 before May 8th', 'Go to Building C instead', 'Send an email to the main office'],
+        answer: 'Contact Facilities Management at ext. 305 before May 8th',
+        explanation: '"please contact Facilities Management at ext. 305 before May 8th" if urgent access is needed.',
+      },
+    ],
+  },
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -996,6 +1478,144 @@ If you have any questions about either of these changes, please contact the Faci
         options: ['One hour', 'Two hours', 'Twenty-four hours', 'The day before'],
         answer: 'Two hours',
         explanation: '"all visitors must be registered... at least two hours before their arrival".',
+      },
+    ],
+  },
+  {
+    id: 'l6',
+    type: 'part2',
+    title: 'Question-Response – Set B',
+    accent: 'US',
+    pairs: [
+      {
+        question: "What time does the report need to be completed?",
+        options: ["Before the end of the business day.", "In the meeting room.", "Three people will attend."],
+        answer: "Before the end of the business day.",
+        explanation: '"What time" asks for a time reference. "Before the end of the business day" is the only time-related response.',
+      },
+      {
+        question: "Have you confirmed the travel arrangements?",
+        options: ["Yes, the flight is booked for next Tuesday.", "The conference is in Singapore.", "I'll check with the hotel."],
+        answer: "Yes, the flight is booked for next Tuesday.",
+        explanation: 'Yes/No question. The first option directly confirms the arrangement with a specific detail.',
+      },
+      {
+        question: "Which vendor did you select for the project?",
+        options: ["The company is based in Germany.", "We chose the one that offered the best combination of price and service.", "There are five vendors available."],
+        answer: "We chose the one that offered the best combination of price and service.",
+        explanation: '"Which vendor" asks for identification of choice. Only the second option identifies a specific vendor selection.',
+      },
+      {
+        question: "Why was the meeting postponed to next month?",
+        options: ["The director wanted to reschedule it.", "It\'s held in the conference room.", "About fifty employees are expected to attend."],
+        answer: "The director wanted to reschedule it.",
+        explanation: '"Why" asks for a reason. Stating that the director wanted to reschedule gives the cause.',
+      },
+      {
+        question: "Can you send me the updated budget proposal?",
+        options: ["I\'ll email it to you within the hour.", "The budget was approved last week.", "Yes, we have a proposal for next quarter."],
+        answer: "I\'ll email it to you within the hour.",
+        explanation: 'Request question ("Can you...?"). Only the first option directly commits to fulfilling the request.',
+      },
+      {
+        question: "How many departments participated in the survey?",
+        options: ["The survey was conducted last month.", "Eight out of the ten departments responded.", "We received about three hundred responses."],
+        answer: "Eight out of the ten departments responded.",
+        explanation: '"How many departments" asks for a department count. "Eight out of ten" directly answers this.',
+      },
+      {
+        question: "Where is the annual shareholders meeting being held this year?",
+        options: ["It\'s scheduled for June 14th.", "At the Metropolitan Hotel in downtown.", "More than five hundred people are expected."],
+        answer: "At the Metropolitan Hotel in downtown.",
+        explanation: '"Where" asks for a location. "Metropolitan Hotel in downtown" is the only location-specific answer.',
+      },
+      {
+        question: "Could the presentation materials be distributed before the meeting?",
+        options: ["I\'ll make copies and send them out tomorrow morning.", "The meeting is at 2 PM.", "The materials are quite lengthy."],
+        answer: "I\'ll make copies and send them out tomorrow morning.",
+        explanation: 'Request question. The first option directly commits to the requested action with a timeline.',
+      },
+    ],
+  },
+  {
+    id: 'l7',
+    type: 'part3',
+    title: 'Conversation: Project Deadline Problem',
+    accent: 'US',
+    script: `Woman: Hi Mark, I wanted to touch base with you about the client project timeline. Are we still on track to deliver by April 30th?
+
+Man: Well, that\'s what I wanted to discuss with you. We\'ve hit some unexpected delays with the development team. The initial design phase took longer than estimated, and now we\'re about two weeks behind schedule.
+
+Woman: Two weeks? That\'s significant. Have you spoken to the client yet about pushing the deadline?
+
+Man: Not yet. I was hoping we could find a way to catch up before notifying them. I\'ve asked the team to work extra hours next week, but realistically, we might need to request a brief extension.
+
+Woman: I understand. Here\'s what I suggest — let\'s schedule a call with the client for Thursday. If we present them with a clear action plan showing how we\'ll recover those two weeks, they might be more receptive to a one-week extension rather than two.
+
+Man: That sounds good. I can prepare a detailed recovery schedule by Wednesday evening. A one-week extension would give us much better breathing room.
+
+Woman: Perfect. I\'ll send them a meeting request for Thursday at 10 AM. Make sure your recovery plan is solid — it\'ll be crucial in convincing them.`,
+    questions: [
+      {
+        id: 'l7q1',
+        question: 'What is the main problem discussed in the conversation?',
+        options: ['The design phase was completed too quickly', 'The project is behind schedule', 'The client wants to cancel the project', 'The development team is leaving'],
+        answer: 'The project is behind schedule',
+        explanation: 'Mark mentions they are "about two weeks behind schedule" due to delays in the initial design phase.',
+      },
+      {
+        id: 'l7q2',
+        question: 'How much of a deadline extension does the woman suggest requesting?',
+        options: ['Two weeks', 'One week', 'Three weeks', 'One month'],
+        answer: 'One week',
+        explanation: '"they might be more receptive to a one-week extension rather than two".',
+      },
+      {
+        id: 'l7q3',
+        question: 'When does the man plan to have the recovery plan ready?',
+        options: ['By Thursday morning', 'By Wednesday evening', 'By Friday', 'By Monday'],
+        answer: 'By Wednesday evening',
+        explanation: '"I can prepare a detailed recovery schedule by Wednesday evening."',
+      },
+    ],
+  },
+  {
+    id: 'l8',
+    type: 'part4',
+    title: 'Product Training Session',
+    accent: 'UK',
+    script: `Good afternoon, everyone. Thank you for attending today\'s training session on our new inventory management system. Over the next two hours, we\'ll cover the essential features that will improve your daily workflow.
+
+First, let me show you the dashboard overview. This is where you can see real-time stock levels across all warehouses. The color coding system indicates whether items are in stock, low stock, or out of stock. This feature alone will save you significant time by eliminating manual checking.
+
+Next, we\'ll explore the automated reorder function. When inventory drops below a certain threshold that you set, the system automatically generates a purchase order. This has reduced our stockout incidents by over 40 percent in our pilot phase.
+
+One important feature for your day-to-day work is the barcode scanning capability. Simply scan the barcode on any item, and all relevant information appears instantly — price, location, shelf life, and recent sales data. This is particularly useful for warehouse staff and those managing returned items.
+
+Finally, we\'ll discuss the reporting module. You can generate custom reports on demand for any timeframe or product category. These reports help identify trends and make informed purchasing decisions.
+
+After this training, you\'ll have access to the system for practice use. I encourage you to spend at least one hour familiarizing yourself with the interface before we go live next week. Any questions at the end will be welcome.`,
+    questions: [
+      {
+        id: 'l8q1',
+        question: 'What is the main topic of this training session?',
+        options: ['Warehouse management techniques', 'A new inventory management system', 'Barcode scanning procedures', 'Customer service skills'],
+        answer: 'A new inventory management system',
+        explanation: 'The speaker introduces the session as training on "our new inventory management system".',
+      },
+      {
+        id: 'l8q2',
+        question: 'What percentage reduction in stockout incidents did the automated reorder function achieve?',
+        options: ['20 percent', '30 percent', '40 percent', '50 percent'],
+        answer: '40 percent',
+        explanation: '"This has reduced our stockout incidents by over 40 percent in our pilot phase."',
+      },
+      {
+        id: 'l8q3',
+        question: 'When will the system go live for all users?',
+        options: ['Today', 'This week', 'Next week', 'Next month'],
+        answer: 'Next week',
+        explanation: '"before we go live next week".',
       },
     ],
   },
