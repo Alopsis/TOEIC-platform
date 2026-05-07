@@ -40,6 +40,18 @@ const exerciseTypes = [
     xp: '+40 XP',
     tags: ['Part 2', 'Part 3', 'Part 4', 'Listening'],
   },
+  {
+    id: 'prepositions',
+    title: 'Verbs + Prepositions',
+    description: 'Choisissez la bonne préposition : participate in, apply for, depend on... Indispensable pour le Part 5',
+    icon: '🔗',
+    color: 'from-teal-500 to-green-500',
+    route: '/exercises/prepositions',
+    difficulty: 'All levels',
+    count: '10 per session · 25 total',
+    xp: '+30 XP',
+    tags: ['Part 5', 'Prépositions'],
+  },
 ]
 
 export default function ExercisesHome() {

@@ -6,6 +6,7 @@ import CoursesHome from './components/Courses'
 import LessonView from './components/Courses/LessonView'
 import ExercisesHome from './components/Exercises'
 import GrammarDrill from './components/Exercises/GrammarDrill'
+import PrepDrill from './components/Exercises/PrepDrill'
 import ReadingExercise from './components/Exercises/ReadingExercise'
 import ListeningExercise from './components/Exercises/ListeningExercise'
 import VocabHome from './components/Vocabulary'
@@ -33,6 +34,7 @@ function AppRoutes() {
         <Route path="/courses/:courseId" element={<LessonView />} />
         <Route path="/exercises" element={<ExercisesHome />} />
         <Route path="/exercises/grammar" element={<GrammarDrill />} />
+        <Route path="/exercises/prepositions" element={<PrepDrill />} />
         <Route path="/exercises/reading" element={<ReadingExercise />} />
         <Route path="/exercises/listening" element={<ListeningExercise />} />
         <Route path="/vocabulary" element={<VocabHome />} />

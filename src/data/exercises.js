@@ -801,6 +801,188 @@ export const grammarExercises = [
 ]
 
 // ─────────────────────────────────────────────────────────────────────────────
+// VERB + PREPOSITION EXERCISES
+// ─────────────────────────────────────────────────────────────────────────────
+
+export const prepExercises = [
+  {
+    id: 'p1', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'She is very good ___ managing large international teams.',
+    options: ['at', 'in', 'for', 'on'],
+    answer: 'at',
+    explanation: '"Good at" = avoir des compétences en quelque chose. Ex: "He is good at presenting data."',
+  },
+  {
+    id: 'p2', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'Over 100 candidates have applied ___ the senior manager position.',
+    options: ['for', 'to', 'in', 'at'],
+    answer: 'for',
+    explanation: '"Apply for" = postuler à un emploi ou faire une demande. Ex: "She applied for a promotion."',
+  },
+  {
+    id: 'p3', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'The entire project depends ___ the supplier delivering materials on time.',
+    options: ['on', 'in', 'for', 'at'],
+    answer: 'on',
+    explanation: '"Depend on" = dépendre de. Ex: "Our profits depend on customer satisfaction."',
+  },
+  {
+    id: 'p4', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'The team will focus ___ reducing operational costs this quarter.',
+    options: ['on', 'at', 'in', 'for'],
+    answer: 'on',
+    explanation: '"Focus on" = se concentrer sur. Ex: "Please focus on the main objectives."',
+  },
+  {
+    id: 'p5', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'We are looking ___ an experienced project coordinator to join our team.',
+    options: ['for', 'at', 'in', 'to'],
+    answer: 'for',
+    explanation: '"Look for" = chercher / rechercher. Ex: "We are looking for a new vendor."',
+  },
+  {
+    id: 'p6', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'The director is very proud ___ the results achieved in Q3.',
+    options: ['of', 'for', 'about', 'in'],
+    answer: 'of',
+    explanation: '"Proud of" = fier de. Ex: "The CEO is proud of the team\'s dedication."',
+  },
+  {
+    id: 'p7', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'All employees are encouraged to participate ___ the company wellness program.',
+    options: ['in', 'at', 'on', 'for'],
+    answer: 'in',
+    explanation: '"Participate in" = participer à. Ex: "All staff should participate in the training."',
+  },
+  {
+    id: 'p8', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'We are still waiting ___ a response from the legal department.',
+    options: ['for', 'to', 'on', 'at'],
+    answer: 'for',
+    explanation: '"Wait for" = attendre quelqu\'un ou quelque chose. Ex: "We\'re waiting for the client\'s approval."',
+  },
+  {
+    id: 'p9', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'Management is thinking ___ restructuring the logistics department.',
+    options: ['about', 'of', 'on', 'for'],
+    answer: 'about',
+    explanation: '"Think about" = réfléchir à / envisager. Ex: "Are you thinking about changing roles?"',
+  },
+  {
+    id: 'p10', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'The new product is very similar ___ the one we launched last spring.',
+    options: ['to', 'with', 'as', 'from'],
+    answer: 'to',
+    explanation: '"Similar to" = similaire à / semblable à. Ex: "This clause is similar to the previous contract."',
+  },
+  {
+    id: 'p11', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'He is responsible ___ overseeing the day-to-day operations of the warehouse.',
+    options: ['for', 'of', 'in', 'at'],
+    answer: 'for',
+    explanation: '"Responsible for" = responsable de. Ex: "She is responsible for budget planning."',
+  },
+  {
+    id: 'p12', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'Our factory is fully capable ___ producing 1,000 units per day.',
+    options: ['of', 'for', 'in', 'at'],
+    answer: 'of',
+    explanation: '"Capable of" = capable de. Ex: "Is the team capable of meeting the deadline?"',
+  },
+  {
+    id: 'p13', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'The new onboarding program consists ___ three modules and a final assessment.',
+    options: ['of', 'in', 'with', 'from'],
+    answer: 'of',
+    explanation: '"Consist of" = être composé de. Ex: "The report consists of five sections."',
+  },
+  {
+    id: 'p14', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'The customer service team must deal ___ complaints in a professional manner.',
+    options: ['with', 'in', 'for', 'at'],
+    answer: 'with',
+    explanation: '"Deal with" = traiter / s\'occuper de. Ex: "Can you deal with this client issue?"',
+  },
+  {
+    id: 'p15', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'All staff should be aware ___ the updated data protection policy.',
+    options: ['of', 'for', 'about', 'in'],
+    answer: 'of',
+    explanation: '"Aware of" = conscient(e) de / au courant de. Ex: "Are you aware of the new regulations?"',
+  },
+  {
+    id: 'p16', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'The company decided to invest ___ renewable energy infrastructure.',
+    options: ['in', 'on', 'at', 'for'],
+    answer: 'in',
+    explanation: '"Invest in" = investir dans. Ex: "We plan to invest in staff training next year."',
+  },
+  {
+    id: 'p17', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'Our legal team specializes ___ intellectual property and contract law.',
+    options: ['in', 'at', 'on', 'for'],
+    answer: 'in',
+    explanation: '"Specialize in" = se spécialiser en. Ex: "She specializes in corporate mergers."',
+  },
+  {
+    id: 'p18', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'The client insisted ___ having the final report delivered by Friday.',
+    options: ['on', 'in', 'for', 'with'],
+    answer: 'on',
+    explanation: '"Insist on" = insister sur / exiger. Ex: "The manager insisted on a full audit."',
+  },
+  {
+    id: 'p19', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'The team succeeded ___ launching the new platform ahead of schedule.',
+    options: ['in', 'at', 'on', 'for'],
+    answer: 'in',
+    explanation: '"Succeed in" = réussir à. Ex: "They succeeded in negotiating a better deal."',
+  },
+  {
+    id: 'p20', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'She has always been interested ___ pursuing a career in international finance.',
+    options: ['in', 'at', 'for', 'on'],
+    answer: 'in',
+    explanation: '"Interested in" = intéressé(e) par. Ex: "Are you interested in this job offer?"',
+  },
+  {
+    id: 'p21', type: 'mcq', category: 'Verb + Preposition', difficulty: 2, toeicPart: 5,
+    question: 'You must account ___ all travel expenses in your monthly report.',
+    options: ['for', 'in', 'on', 'at'],
+    answer: 'for',
+    explanation: '"Account for" = justifier / expliquer. Ex: "Please account for any discrepancies."',
+  },
+  {
+    id: 'p22', type: 'mcq', category: 'Verb + Preposition', difficulty: 1, toeicPart: 5,
+    question: 'Investors are increasingly worried ___ the impact of inflation on margins.',
+    options: ['about', 'of', 'on', 'for'],
+    answer: 'about',
+    explanation: '"Worried about" = s\'inquiéter de. Ex: "The board is worried about rising costs."',
+  },
+  {
+    id: 'p23', type: 'mcq', category: 'Verb + Preposition', difficulty: 3, toeicPart: 5,
+    question: 'The company believes ___ giving employees full ownership of their projects.',
+    options: ['in', 'on', 'at', 'for'],
+    answer: 'in',
+    explanation: '"Believe in" = croire en / avoir confiance en. Ex: "We believe in transparent communication."',
+  },
+  {
+    id: 'p24', type: 'mcq', category: 'Verb + Preposition', difficulty: 3, toeicPart: 5,
+    question: 'The new recruit admitted he was bad ___ time management but eager to improve.',
+    options: ['at', 'in', 'for', 'on'],
+    answer: 'at',
+    explanation: '"Bad at" = mauvais(e) en / nul(le) en. Opposite of "good at". Ex: "I\'m bad at cold calling."',
+  },
+  {
+    id: 'p25', type: 'mcq', category: 'Verb + Preposition', difficulty: 3, toeicPart: 5,
+    question: 'Staff were afraid ___ the consequences of the announced restructuring plan.',
+    options: ['of', 'from', 'about', 'for'],
+    answer: 'of',
+    explanation: '"Afraid of" = avoir peur de. Ex: "No one should be afraid of asking questions."',
+  },
+]
+
+// ─────────────────────────────────────────────────────────────────────────────
 // READING PASSAGES
 // ─────────────────────────────────────────────────────────────────────────────
 
