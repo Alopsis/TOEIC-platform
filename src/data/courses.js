@@ -683,4 +683,5 @@ export const vocabularyCourses = [
   { id: 'customer-service', title: 'Customer Service', icon: '🎯', color: 'from-pink-500 to-rose-500', count: 28 },
   { id: 'technology', title: 'Technology & IT', icon: '💻', color: 'from-violet-500 to-purple-500', count: 32 },
   { id: 'contracts', title: 'Contracts & Legal', icon: '⚖️', color: 'from-slate-500 to-gray-600', count: 25 },
+  { id: 'verb-prepositions', title: 'Verbs + Prepositions', icon: '🔗', color: 'from-teal-500 to-green-500', count: 26 },
 ]
